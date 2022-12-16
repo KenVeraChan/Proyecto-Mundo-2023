@@ -1,0 +1,34 @@
+A continuación se presentan los posibles siguientes proyectos:
+Proyecto A:
+Creación de una página web que pueda ir creciendo con el tiempo basado en una biblioteca de conocimientos de todas las ramas que se nos ocurran.
+Como inicio se puede ir creando un menú principal en donde se pondrán los "paneles" o "botones" de acceso al conocimiento elegido, de momento sólo
+se pondrá el conocimiento en "Programación" que accediendo a él, el usuario podrá acceder a otros botones con los lenguajes:
+  - C
+  - JAVA
+  - CSS
+  - HMTL
+  - JAVASCRIPT
+  - GITHUB
+  - etc 
+En cada página se pondrá una interfaz con una imagende fondo sobre el lenguaje de programación elegido, así como un menú secundario para
+que el usuario vaya recorriendo; con botones o como lo que se quiera, para recorrer un índice progresivo del aprendizaje del lenguaje 
+de programación elegido.
+
+Proyecto B:
+Una máquina calculadora con operaciones:
+ - Suma
+ - Resta
+ - Multiplicación
+ - División
+ - Potencia
+Pero además de ello, poder guardar datos pequeños para hacer cálculos más avanzados (si se quiere hacer claro)
+Además de ello, se podría crear páginas secundarias a esta página web con datos científicos del estilo: g= 9,8 m/sg^2, gravedad de la Tierra, 
+para que el usuario pueda anotarlo, y luego volver a la calculadora para usarlo, o bien otro tipo de constantes o nociones elementales para que 
+el mismo usuario realice cálculos con la mencionada calculadora
+
+De momento he visto ese tipo de proposiciones de proyecto, si aparecen alguno más se puede añadir, o cambiar, sugerir, recomendar etc
+Libre acceso y libertad de proponer ideas para que salgan la mayor cantidad de dudas de planteamiento de problemas a medida que vayamos 
+avanzando en el proyecto elegido. Se pueden avanzar en varios proyectos en paralelo si se quiere, sugiero que de momento los primeros
+pasos sean sobre un solo proyecto para evitar saturaciones con el GitHub pues es prioritario que este primer tema se conozca para compartir 
+y trabajar en paralelo.
+Un saludo a todos los que os habeis embarcado en este proyecto conjunto.
