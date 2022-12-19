@@ -1,5 +1,5 @@
 A continuación se presentan los posibles siguientes proyectos:
-Proyecto A:
+----------------- PROYECTO A ---------------------------
 Creación de una página web que pueda ir creciendo con el tiempo basado en una biblioteca de conocimientos de todas las ramas que se nos ocurran.
 Como inicio se puede ir creando un menú principal en donde se pondrán los "paneles" o "botones" de acceso al conocimiento elegido, de momento sólo
 se pondrá el conocimiento en "Programación" que accediendo a él, el usuario podrá acceder a otros botones con los lenguajes:
@@ -14,7 +14,7 @@ En cada página se pondrá una interfaz con una imagende fondo sobre el lenguaje
 que el usuario vaya recorriendo; con botones o como lo que se quiera, para recorrer un índice progresivo del aprendizaje del lenguaje 
 de programación elegido.
 
-Proyecto B:
+----------------- PROYECTO B ---------------------------
 Una máquina calculadora con operaciones:
  - Suma
  - Resta
@@ -25,6 +25,31 @@ Pero además de ello, poder guardar datos pequeños para hacer cálculos más av
 Además de ello, se podría crear páginas secundarias a esta página web con datos científicos del estilo: g= 9,8 m/sg^2, gravedad de la Tierra, 
 para que el usuario pueda anotarlo, y luego volver a la calculadora para usarlo, o bien otro tipo de constantes o nociones elementales para que 
 el mismo usuario realice cálculos con la mencionada calculadora
+
+----------------- PROYECTO C ---------------------------
+- BIBLIOTECA DE RECURSOS PARA PROGRAMADORES -
+La idea:
+Creación de un sitio web donde poder buscar, explorar y conocer información general sobre herramientas y recursos imprescindibles u
+opcionales para programadores. En resumen, recopilar todos estos recursos en una web para acceder a ellos cómodamente en sus últimas
+versiones o sus versiones más estandarizadas/utilizadas.
+Estos recursos se dividirían distintos tipos de programadores: FrontEnd, BackEnd, programadores Java, PHP, incluso diseñadores etc y
+cuales son sus recursos más utilizados. Estos recursos incluirían:
+- IDEs: Eclipse, NetBeans, Visual Studio/Visual Studio Code, WebStorm, DreamWeaver, IntelliJ Idea...
+- Editores de texto: Notepad++, Sublime text/Sublime text 3...
+- Tecnologías según tipo de lenguaje: Maven (para la sección de Java por ejemplo)
+- Frameworks según lenguaje: Spring (para la sección de Java)
+- Bases de datos tanto relacionales: MySql, MariaDB, SQL Server...
+- Gestores de bases de datos: DBeaver, PHPMyAdmin...
+- Biblioteca de liberías interesantes
+- Sección para diseño como programas para diseño, diseño de interfaces, recursos para UX/UI...
+(Opcional o ideas a futuro)
+- Incluir estadísticas sobre herramientas más utilizadas
+- Boletín de noticias sobre la actualidad y novedades de los recursos
+- Incluir un foro para resolver dudas sobre todos estos recursos
+- Ampliar con el tiempo con recursos más complejos y específicos como una WIKI para los diferentes lenguajes, guías etc
+- Cuentas/Perfil de usuario donde la gente podrá guardar sus recursos y tener su propia biblioteca para acceder a ella desde cualquier sitio
+- Incluir publicidad y crear planes/tarifas para que las empresas posicionen su producto en zonas más visibles
+Todo esto se puede simplificar o complicar tanto como se quiera ;)
 
 De momento he visto ese tipo de proposiciones de proyecto, si aparecen alguno más se puede añadir, o cambiar, sugerir, recomendar etc
 Libre acceso y libertad de proponer ideas para que salgan la mayor cantidad de dudas de planteamiento de problemas a medida que vayamos 
