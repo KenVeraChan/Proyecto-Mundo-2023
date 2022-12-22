@@ -51,6 +51,9 @@ cuales son sus recursos más utilizados. Estos recursos incluirían:
 - Incluir publicidad y crear planes/tarifas para que las empresas posicionen su producto en zonas más visibles
 Todo esto se puede simplificar o complicar tanto como se quiera ;)
 
+----------------- PROYECTO D ---------------------------
+Proyecto basado en la emulación de una red social de mensajerá instantánea y publicaciones varias
+
 De momento he visto ese tipo de proposiciones de proyecto, si aparecen alguno más se puede añadir, o cambiar, sugerir, recomendar etc
 Libre acceso y libertad de proponer ideas para que salgan la mayor cantidad de dudas de planteamiento de problemas a medida que vayamos 
 avanzando en el proyecto elegido. Se pueden avanzar en varios proyectos en paralelo si se quiere, sugiero que de momento los primeros
@@ -58,5 +61,4 @@ pasos sean sobre un solo proyecto para evitar saturaciones con el GitHub pues es
 y trabajar en paralelo.
 Un saludo a todos los que os habeis embarcado en este proyecto conjunto.
 
------------------ PROYECTO D ---------------------------
-Proyecto basado en la emulación de una red social de mensajerá instantánea y publicaciones varias
+
