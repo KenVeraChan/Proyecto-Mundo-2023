@@ -57,3 +57,6 @@ avanzando en el proyecto elegido. Se pueden avanzar en varios proyectos en paral
 pasos sean sobre un solo proyecto para evitar saturaciones con el GitHub pues es prioritario que este primer tema se conozca para compartir 
 y trabajar en paralelo.
 Un saludo a todos los que os habeis embarcado en este proyecto conjunto.
+
+----------------- PROYECTO D ---------------------------
+Proyecto basado en la emulación de una red social de mensajerá instantánea y publicaciones varias
