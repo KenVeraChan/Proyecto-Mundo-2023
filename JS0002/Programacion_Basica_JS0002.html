@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nuevas Promociones</title>
+
+    <script>
+
+        /*
+    function ejemploselectores()
+    {
+    */
+
+    /*
+        let posicion= document.getElementById("titulo").innerHTML  //me direcciona el elemento nodo con el ID titulo
+        console.log(posicion);
+    */
+
+    /*
+        let total=1;
+        let totalidad=0;
+        let numeros= document.getElementsByClassName("CajaNumero");
+
+        for(let i=0;i<numeros.length;i++) {
+            console.log(numeros[i]);
+            total*=numeros[i].innerHTML;
+            totalidad += parseInt(numeros[i].innerHTML);
+        }
+        document.getElementsByClassName("total")[0].innerHTML=total;
+        document.getElementsByClassName("totalidad")[0].innerHTML=totalidad;
+    }
+    */
+
+    function Inicializar_Calculadora(){
+        /*SE INICIALIZAN TODOS LOS DATOS IMPLICADOS*/
+        /*EL .innerHTML muestra por pantalla el valor asignado, en este caso 0*/
+        document.getElementsByClassName("total")[0].innerHTML="0";
+        document.getElementsByClassName("total")[1].innerHTML="0";
+        document.getElementsByClassName("total")[2].innerHTML="0";
+        document.getElementsByClassName("total")[3].innerHTML="0";
+        document.getElementsByClassName("total")[4].innerHTML="0";
+        document.getElementsByClassName("total")[5].innerHTML="0";
+        document.getElementsByClassName("total")[6].innerHTML="0";
+        document.getElementsByClassName("total")[7].innerHTML="0";
+        document.getElementsByClassName("total")[8].innerHTML="0";
+        document.getElementsByClassName("total")[9].innerHTML="0";
+        document.getElementsByClassName("total")[10].innerHTML="0";
+    }
+
+    function Input_Enable()
+    {
+        let total= new Array();        /*CREA UNA NUEVA MATRIZ O ARRAY*/
+        let trig= new Array();
+
+        /*LO QUE HACE LO SIGUIENTE ES CONVERTIR EN NÚMERO ENTERO (perseInt) EL VALOR EXTRAÍDO*/
+        /*DE LA ETIQUETA NAME DENOMINADA "numero", QUE COMO HAY VARIOS SE CONSIDERA MATRIZ [0] LUEGO [1]*/
+        let Input_uno= parseInt(document.getElementsByName("numero")[0].value);
+        let Input_dos= parseInt(document.getElementsByName("numero")[1].value);
+
+        total[0]=Input_uno+Input_dos;       /*SUMA*/
+        total[1]=Input_uno-Input_dos;       /*RESTA*/
+        total[2]=(Input_uno*Input_dos).toFixed(3);   /*MULTIPLICA PERO .tofixed(3) HACE QUE SOLO DE 3 DECIMALES*/
+        total[3]=(Input_uno/Input_dos).toFixed(3);   /*DIVIDE PERO .tofixed(3) HACE QUE SOLO DE 3 DECIMALES*/
+        total[4]=Math.pow(Input_uno,Input_dos).toFixed(3); /* POTENCIA Y SOLO DA 3 DECIMALES*/
+        let p=0;    /*CREA VARIABLE E INICIALIZA A 0*/
+        for(let i=0;i<2;i++)
+        {
+            /* COMO HAY DOS VARIABLES QUE TENDRÁN COSENO, SE GENERA EL FOR DE DOS CICLOS*/
+            /* Math.pi AÑADIDO Y DIVIDE ENTRE 180 PORQUE EL COSENO, SENO Y TANGENTE TRABAJAN EN RADIANES*/
+            /* Y HAYQ UE PASARLO A GRADOS AL SER ÁNGULOS*/
+            trig[i]=Math.cos((Math.PI*parseFloat(document.getElementsByName("numero")[p].value))/180);
+            p++;
+        }
+
+        for(let j=2;j<4;j++)
+        {
+            p=0     /* LO MISMO PARA EL SENO */
+            trig[j]=Math.sin((Math.PI*parseFloat(document.getElementsByName("numero")[p].value))/180);
+            p++;
+        }
+
+        for(let k=4;k<6;k++)
+        {
+            p=0;    /* LO MISMO PARA LA TANGENTE */
+            trig[k]=Math.tan((Math.PI*parseFloat(document.getElementsByName("numero")[p].value))/180);
+            p++;
+        }
+
+        for(let w=0;w<6;w++)
+        {
+            /* EL FOR LO QUE HACE ES IR DEL 0 AL 5 OBLIGANDO A TODOS DAR SOLO 3 DECIMALES */
+          total[w+5]=trig[w].toFixed(3);
+        }
+        for(let n=0;n<11;n++)
+        {
+            /*GENERA E IMPRIME POR PANTALLA LAS 11 OPERACIONES QUE SE HAN GENERADO EN LA CALCULADORA*/
+            document.getElementsByClassName("total")[n].innerHTML=total[n];
+        }
+    }
+
+    </script>
+    <style>
+        .container{
+            height: 600px;
+            width: 600px;
+            padding: 20px;
+            margin-left: 350px;
+            text-align: center;
+            background: lightblue;
+            border-bottom-color: black;
+        }
+        .container>table{
+            margin-left: 20%;
+            text-align: center;
+            width: 300px;
+            height: 100px;
+        }
+        .titulo{
+            background:indianred;width:20%;
+        }
+        .total{
+            background: burlywood;
+            width: 20%;
+        }
+    </style>
+</head>
+<body onload="Inicializar_Calculadora()">
+<div class="container">
+    <label>
+        <input name="numero" type="text">
+    </label>
+    <label>
+        <input type="text" name="numero">
+    </label>
+    <button onclick="Input_Enable()">Introducir Datos</button>
+        <h3 id="titulo">Bienvenido a la Calculadora online SFER4D</h3>
+    <br>
+<table>
+    <tr>
+        <th class="titulo">Operación</th>
+        <th class="titulo">N1</th>
+        <th class="titulo">N2</th>
+    </tr>
+
+    <tr>
+        <td class="titulo">SUMA</td>
+        <td class="total"></td>
+    </tr>
+
+    <tr>
+        <td class="titulo">RESTA</td>
+        <td class="total"></td>
+    </tr>
+
+    <tr>
+        <td class="titulo">MULTIPLICACION</td>
+        <td class="total"></td>
+    </tr>
+
+    <tr>
+        <td class="titulo">DIVISION</td>
+        <td class="total"></td>
+    </tr>
+
+    <tr>
+        <td class="titulo">POTENCIA</td>
+        <td class="total"></td>
+    </tr>
+
+    <tr>
+        <td class="titulo">COSENO TRIGONOMÉTRICO</td>
+        <td class="total"></td>
+        <td class="total"></td>
+    </tr>
+
+    <tr>
+        <td class="titulo">SENO TRIGONOMÉTRICO</td>
+        <td class="total"></td>
+        <td class="total"></td>
+    </tr>
+
+    <tr>
+        <td class="titulo">TANGENTE TRIGONOMÉTRICO</td>
+        <td class="total"></td>
+        <td class="total"></td>
+    </tr>
+</table>
+    <br>
+    <br>
+    <br>
+        <h1></h1>
+    <h2>----- e-mail: sfer4d_corporation@outlook.com ----- </h2>
+</div>
+
+
+</body>
+</html>
